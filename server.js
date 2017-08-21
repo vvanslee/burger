@@ -5,7 +5,7 @@ var app = express();
 var exphbs = require("express-handlebars");
 var routes = require("./controllers/burgers_controller.js");
 
-app.set('port', (process.env.PORT || 3000));
+app.set('port', (process.env.PORT || 8000));
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(methodOverride("_method"));
