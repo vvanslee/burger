@@ -1,0 +1,12 @@
+.jumbotron {
+    display: inline-block;
+    width: 100%;
+}
+
+.jumbotron p {
+    font-size: 40px;
+}
+
+#burgerImg {
+    height: 200px;
+}
