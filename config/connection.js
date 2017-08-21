@@ -12,5 +12,5 @@ if (process.env.JAWSDB_URL) {
   });
 };
 
-connecection.connect();
+connection.connect();
 module.exports = connection;
